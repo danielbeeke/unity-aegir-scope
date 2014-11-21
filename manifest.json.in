@@ -1,0 +1,15 @@
+{
+    "architecture": "@CLICK_ARCH@",
+    "description": "A simple Unity scope that accesses the network",
+    "framework": "ubuntu-sdk-14.10",
+    "hooks": {
+        "aegir": {
+            "apparmor": "aegir.apparmor",
+            "scope": "aegir"
+        }
+    },
+    "maintainer": "Daniel Beeke <daniel.beeke@gmail.com>",
+    "name": "com.ubuntu.developer.danielbeeke.aegir",
+    "title": "aegir",
+    "version": "0.1"
+}
